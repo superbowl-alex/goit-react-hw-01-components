@@ -5,7 +5,9 @@ export const StatList = ({ statObjects }) => {
   return (
     <ul className={css.statList}>
       {statObjects.map(statObject => (
-        <StatItem key={statObject.id} statObject={statObject} />
+        <li key={statObject.id} className={css.item}>
+          <StatItem statObject={statObject} />
+        </li>
       ))}
     </ul>
   );
