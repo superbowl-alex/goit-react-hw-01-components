@@ -11,5 +11,5 @@ export const StatList = ({ statObjects }) => {
   );
 };
 StatList.propTypes = {
-  recipes: PropTypes.array.isRequired,
+  statObjects: PropTypes.array.isRequired,
 };
