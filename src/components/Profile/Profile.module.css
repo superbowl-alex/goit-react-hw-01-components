@@ -46,7 +46,7 @@
   border-bottom-right-radius: 10px;
 }
 .statsItem {
-  width: calc(100% / 3);
+  flex-basis: calc(100% / 3);
   display: flex;
   flex-direction: column;
   justify-content: center;

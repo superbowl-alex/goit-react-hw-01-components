@@ -8,6 +8,7 @@ export const StatItem = ({ statObject: { label, percentage } }) => {
     </>
   );
 };
+
 StatItem.propTypes = {
   statObject: PropTypes.shape({
     label: PropTypes.string.isRequired,
