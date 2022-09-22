@@ -1,15 +1,18 @@
 import PropTypes from 'prop-types';
 import css from './StatList.module.css';
 import { StatItem } from './StatItem';
-import { calculateNewValue } from '@testing-library/user-event/dist/utils';
 export const StatList = ({ statObjects }) => {
+  const countItems = statObjects.length;
   return (
     <ul className={css.statList}>
       {statObjects.map(statObject => (
         <li
           key={statObject.id}
           className={css.item}
-          style={{ backgroundColor: getRandomHexColor() }}
+          style={{
+            backgroundColor: getRandomHexColor(),
+            flexBasis: `calc(100%/${countItems})`,
+          }}
         >
           <StatItem statObject={statObject} />
         </li>
