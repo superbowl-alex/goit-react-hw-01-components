@@ -1,0 +1,25 @@
+.status {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+.online {
+  background-color: var(--color-green);
+}
+.offline {
+  background-color: var(--color-red);
+}
+.avatar {
+  width: 100px;
+  background-color: var(--secondary-bacground-color);
+  border-radius: 10px;
+}
+.name {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--secondary-text-color);
+  background-color: var(--color-white);
+}

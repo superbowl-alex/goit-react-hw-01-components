@@ -1,11 +1,13 @@
 @import-normalize; /* bring in normalize.css styles */
 
 :root {
-  --color-white: #ffffff;
-  --primary-text-color: #010101;
+  --color-white: rgb(255, 255, 255);
+  --primary-text-color: rgb(1, 1, 1);
   --secondary-text-color: rgb(104, 102, 102);
   --secondary-bacground-color: rgb(220, 215, 215);
   --border-color: rgb(117, 116, 116);
+  --color-green: rgb(0, 128, 0);
+  --color-red: rgb(255, 99, 71);
 }
 
 body {
