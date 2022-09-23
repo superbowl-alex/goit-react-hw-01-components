@@ -11,6 +11,7 @@
 }
 
 .tableHead {
+  text-transform: uppercase;
   background-color: var(--dark-blue-color);
   color: var(--color-white);
 }

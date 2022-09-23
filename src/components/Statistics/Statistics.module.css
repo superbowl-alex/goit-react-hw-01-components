@@ -17,5 +17,6 @@
   font-size: 22px;
   line-height: 1.2;
   font-weight: 500;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
 }
