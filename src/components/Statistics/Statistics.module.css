@@ -5,12 +5,19 @@
   margin-right: auto;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: var(--secondary-bacground-color);
 }
 .title {
-  height: 80px;
   font-size: 22px;
   line-height: 1.2;
   font-weight: 500;
   color: var(--secondary-text-color);
-  background-color: var(--secondary-bacground-color);
 }
