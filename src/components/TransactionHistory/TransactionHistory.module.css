@@ -18,14 +18,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 .tableHeadElem {
   flex-basis: calc(100% / 4);
   text-align: center;
+  padding: 10px;
 }
 .tableHeadElem:first-child {
   text-align: start;
+}
+.tableHeadElem:not(:last-child) {
+  border-right: 1px solid var(--color-white);
 }
 .tableBody .tableRow:nth-child(2n + 1) {
   background-color: var(--secondary-bacground-color);

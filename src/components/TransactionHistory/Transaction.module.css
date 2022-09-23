@@ -1,7 +1,11 @@
 .tableRowElem {
   flex-basis: calc(100% / 4);
   text-align: center;
+  padding: 10px;
 }
 .tableRowElem:first-child {
   text-align: start;
+}
+.tableRowElem:not(:last-child) {
+  border-right: 1px solid var(--border-color);
 }
