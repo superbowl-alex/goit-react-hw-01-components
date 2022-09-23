@@ -1,0 +1,7 @@
+.tableRowElem {
+  flex-basis: calc(100% / 4);
+  text-align: center;
+}
+.tableRowElem:first-child {
+  text-align: start;
+}
