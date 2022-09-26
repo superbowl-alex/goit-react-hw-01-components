@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './StatList.module.css';
-import { StatItem } from './StatItem';
+import { StatItem } from '../StatItem/StatItem';
+
 export const StatList = ({ statObjects }) => {
   const countItems = statObjects.length;
   return (
@@ -20,6 +21,7 @@ export const StatList = ({ statObjects }) => {
     </ul>
   );
 };
+
 function getRandomHexColor() {
   const red = Math.round(Math.random(0, 1) * 255);
   const green = Math.round(Math.random(0, 1) * 255);

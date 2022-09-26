@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Transaction.module.css';
+
 export const Transaction = ({ transaction: { type, amount, currency } }) => {
   return (
     <>
@@ -9,6 +10,7 @@ export const Transaction = ({ transaction: { type, amount, currency } }) => {
     </>
   );
 };
+
 Transaction.propTypes = {
   transaction: PropTypes.shape({
     type: PropTypes.string.isRequired,
